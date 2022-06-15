@@ -1,0 +1,9 @@
+.feedback {
+  padding: 0 68px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .feedback {
+    padding: 0 calc((100vw - 768px)/(1024 - 768)*(68 - 30) + 30px) 0;
+  }
+}

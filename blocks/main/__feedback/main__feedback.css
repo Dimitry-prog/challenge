@@ -1,0 +1,9 @@
+.main__feedback {
+  margin: 178px 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  .main__feedback {
+    margin-top: 60px;
+  }
+}

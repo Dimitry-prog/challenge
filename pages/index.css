@@ -1,5 +1,7 @@
 @import url(../vendors/normalize.css);
 @import url(../vendors/fonts.css);
+
+
 @import url(../blocks/main/main.css);
 @import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
@@ -10,3 +12,35 @@
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__descriptions/_reverse/place__descriptions_reverse.css);
 @import url(../blocks/place/__img/_reverse/place__img_reverse.css);
+
+
+/* Root */
+@import url(../blocks/root/root.css);
+@import url(../blocks/root/__header/root__header.css);
+
+/* Main */
+@import url(../blocks/main/__description/main__description.css);
+@import url(../blocks/main/__feedback/main__feedback.css);
+
+/* Header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__complain/header__complain.css);
+
+/* Description */
+@import url(../blocks/description/description.css);
+@import url(../blocks/description/__image/description__image.css);
+
+/* Mark */
+@import url(../blocks/mark/mark.css);
+@import url(../blocks/mark/_place/mark_place_feedback.css);
+@import url(../blocks/mark/__title/mark__title.css);
+@import url(../blocks/mark/__subtitle/mark__subtitle.css);
+
+/* Feedback */
+@import url(../blocks/feedback/feedback.css);
+@import url(../blocks/feedback/__list/feedback__list.css);
+@import url(../blocks/feedback/__list-item/feedback__list-item.css);
+@import url(../blocks/feedback/__item-title/feedback__item-title.css);
+@import url(../blocks/feedback/__item-paragraph/feedback__item-paragraph.css);
