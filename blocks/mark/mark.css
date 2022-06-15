@@ -1,0 +1,14 @@
+.mark {
+  max-width: 610px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 767px) {
+  .mark {
+    padding: 0 10px 0;
+    grid-template-columns: repeat(auto-fit, minmax(400px, max-content));
+  }
+}

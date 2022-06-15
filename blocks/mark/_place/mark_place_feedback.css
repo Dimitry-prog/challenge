@@ -1,0 +1,11 @@
+.mark_place_feedback{
+  max-width: 425px;
+  margin-bottom: 124px;
+}
+
+@media screen and (max-width: 768px) {
+  .mark_place_feedback {
+    margin-bottom: 60px;
+  }
+}
+

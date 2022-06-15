@@ -1,0 +1,13 @@
+.feedback__item-title {
+  margin: 0 0 25px 0;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.5px;
+}
+
+@media screen and (max-width: 768px) {
+  .feedback__item-title {
+    margin-bottom: 15px;
+  }
+}

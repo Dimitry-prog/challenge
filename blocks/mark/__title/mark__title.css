@@ -1,0 +1,13 @@
+.mark__title {
+  margin: 0;
+  font-family: 'Montserrat';
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 39.01px;
+}
+
+@media screen and (max-width:768px) {
+  .mark__title {
+    font-size: 24px;
+  }
+}

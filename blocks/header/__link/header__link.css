@@ -1,0 +1,18 @@
+.header__link {
+  color: black;
+  margin: 0 27px 0 0;
+  font-family: 'Montserrat';
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15.85px;
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+
+.header__link:last-of-type {
+  margin-right: 0;
+}
+
+.header__link:hover {
+  opacity: 0.8;
+}
