@@ -1,0 +1,9 @@
+.root {
+  box-sizing: border-box;
+  max-width: 1280px;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000;
+}
