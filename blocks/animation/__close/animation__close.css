@@ -1,0 +1,13 @@
+@keyframes close {
+  from {
+    left: -10px;
+}
+  to {
+    left: -150px;
+}
+}
+
+.animation__close{
+  animation: close ease 0.5s;
+}
+

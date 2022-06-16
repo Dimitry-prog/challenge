@@ -13,8 +13,12 @@
 @import url(../blocks/menu/menu.css);
 @import url(../blocks/menu/__links/menu__links.css);
 @import url(../blocks/menu/__item/menu__item.css);
+@import url(../blocks/menu/__item/_place/menu__item_place_drop-down.css);
 @import url(../blocks/menu/__link/menu__link.css);
 @import url(../blocks/menu/__link/_complain/menu__link_complain.css);
+@import url(../blocks/menu/__button/menu__button.css);
+@import url(../blocks/menu/__drop-down/menu__drop-down.css);
+@import url(../blocks/menu/__drop-down/_active/menu__drop-down_active.css);
 
 /* Main */
 @import url(../blocks/main/main.css);
@@ -68,3 +72,7 @@
 @import url(../blocks/form/__input/form__input.css);
 @import url(../blocks/form/__textarea/form__textarea.css);
 @import url(../blocks/form/__submit/form__submit.css);
+
+/* Animation */
+@import url(../blocks/animation/__open/animation__open.css);
+@import url(../blocks/animation/__close/animation__close.css);

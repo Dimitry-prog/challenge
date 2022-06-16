@@ -1,0 +1,12 @@
+@keyframes open {
+  from {
+    left: -150px;
+}
+  to {
+    left: -10px;
+}
+}
+
+.animation__open{
+  animation: open ease-in-out 0.5s;
+}

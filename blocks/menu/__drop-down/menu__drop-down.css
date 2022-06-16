@@ -1,0 +1,20 @@
+.menu__drop-down {
+  margin: 0;
+  padding: 37px 12px 12px;
+  list-style-type: none;
+
+  background-color:#FED4B4;
+  border-radius: 3px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+
+  position: absolute;
+  left: -150px;
+  top: -10px;
+  z-index: 0;
+}
+
+

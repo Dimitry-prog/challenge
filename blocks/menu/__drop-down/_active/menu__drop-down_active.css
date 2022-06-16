@@ -1,0 +1,19 @@
+.menu__drop-down_active {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+
+  position: absolute;
+  left: -10px;
+  top: -10px;
+  z-index: 0;
+}
+
+@media screen and (min-width: 500px) {
+  .menu__drop-down {
+    display: none;
+  }
+}
+
+
