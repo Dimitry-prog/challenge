@@ -4,8 +4,14 @@
   object-position: center center;
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .description__image {
     object-fit: contain;
+  }
+} */
+
+@media screen and (max-width: 767px) {
+  .description__image {
+    display: none;
   }
 }

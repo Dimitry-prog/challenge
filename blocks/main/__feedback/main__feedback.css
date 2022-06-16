@@ -1,9 +1,9 @@
 .main__feedback {
-  margin: 178px 0 0;
+  margin: 178px 0 60px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
   .main__feedback {
-    margin-top: 60px;
+    margin: 60px 0 60px;
   }
 }
