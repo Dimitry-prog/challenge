@@ -1,10 +1,5 @@
 .footer__copyright {
-  min-height: 620px;
   margin: 0;
   font-weight: 700;
   line-height: 44px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #FECDA7;
 }

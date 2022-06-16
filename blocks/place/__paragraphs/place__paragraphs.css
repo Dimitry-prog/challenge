@@ -1,1 +1,21 @@
-.place__paragraphs {}
+.place__paragraphs {
+  margin-bottom: 85px;
+}
+
+@media screen and (max-width: 999px) {
+  .place__paragraphs {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 893px) {
+  .place__paragraphs {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .place__paragraphs {
+    margin-bottom: 0;
+  }
+}

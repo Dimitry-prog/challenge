@@ -4,4 +4,33 @@
   font-size: 14px;
   line-height: 17px;
   font-weight: 600;
+  position: relative;
+}
+
+.menu__link:hover {
+  opacity: .7;
+  transition: .3s;
+}
+
+.menu__link::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  border-bottom: 1px solid #000;
+  transform: scaleX(0);
+  transition: .3s;
+}
+
+.menu__link:hover::before {
+  transform: scaleX(1);
+}
+
+@media screen and (max-width:470px) {
+  .menu__link {
+    font-size: 12px;
+    line-height: 14px;
+  }
 }

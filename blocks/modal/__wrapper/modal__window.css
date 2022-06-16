@@ -1,0 +1,7 @@
+.modal__window {
+  position: relative;
+  border-radius: 15px;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}

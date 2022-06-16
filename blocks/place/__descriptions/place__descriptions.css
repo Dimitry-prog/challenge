@@ -1,7 +1,20 @@
 .place__descriptions {
-  max-width: 400px;
+  max-width: 445px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 60px 60px;
+  padding: 80px 70px 0 70px;
+}
+
+@media screen and (max-width: 777px) {
+  .place__descriptions {
+    padding: 40px 70px 0 40px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .place__descriptions {
+    padding: 20px;
+    max-width: 100%;
+  }
 }

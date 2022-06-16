@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="./pages/index.css">
   <title>Соревнование</title>
 </head>
@@ -23,8 +24,8 @@
           <a href="#" class="menu__link">Реальность</a>
         </li>
       </ul>
+      <a href="#" class="menu__link menu__link_complain">Пожаловаться</a>
     </nav>
-    <a href="#" class="header__complain">Пожаловаться</a>
   </header>
   <main class="main root__main">
     <section class="description main__description">
@@ -36,7 +37,7 @@
     </section>
     <section class="places main__places">
       <div class="place">
-        <img src="./images/places-forest 1.png" alt="самолет" class="place__img">
+        <img src="./images/places-forest.jpeg" alt="самолет" class="place__img">
         <div class="place__descriptions">
           <h2 class="place__title">Поеду в лес</h2>
           <div class="place__paragraphs">
@@ -46,7 +47,7 @@
         </div>
       </div>
       <div class="place">
-        <img src="./images/places-mountains 1.png" alt="самолет" class="place__img place__img_reverse">
+        <img src="./images/places-mountains 1.png" alt="горы" class="place__img place__img_reverse">
         <div class="place__descriptions place__descriptions_reverse">
           <h2 class="place__title">Поеду в горы</h2>
           <div class="place__paragraphs">
@@ -56,7 +57,7 @@
         </div>
       </div>
       <div class="place">
-        <img src="./images/places-black-sea 1.png" alt="самолет" class="place__img">
+        <img src="./images/places-black-sea 1.png" alt="море" class="place__img">
         <div class="place__descriptions">
           <h2 class="place__title">Поеду на Чёрное море</h2>
           <div class="place__paragraphs">
@@ -96,6 +97,19 @@
   <footer class="footer root__footer">
     <p class="footer__copyright">&copy; 2022</p>
   </footer>
+  <a href="#" class="up">
+    <i class='bx bx-up-arrow-alt up__icon'></i>
+  </a>
+  <div class="modal">
+    <div class="modal__window">
+      <form action="" class="form modal__form">
+        <input type="text" class="form__input" placeholder="Введите ваше имя">
+        <textarea class="form__textarea" placeholder="Опишите свою претензию"></textarea>
+        <button type="submit" class="form__input form__submit"> submit </button>
+      </form>
+    </div>
+  </div>
+  <script type="module" src="./pages/index.js"></script>
 </body>
 
 </html>

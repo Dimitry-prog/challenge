@@ -1,18 +1,19 @@
-.header__complain {
-  color: inherit;
-  text-decoration: none;
-  font-size: 14px;
-  line-height: 17px;
+.form__submit {
+  cursor: pointer;
+  text-transform: uppercase;
   font-weight: 600;
+  opacity: .8;
   position: relative;
 }
 
-.header__complain:hover {
-  opacity: .7;
-  transition: .3s;
-}
 
-.header__complain::before {
+/* .form__submit:hover {
+  border-bottom: 1px solid #000;
+  opacity: 1;
+  transition: 1s;
+} */
+
+.form__submit::before {
   content: '';
   position: absolute;
   bottom: 0;
@@ -24,6 +25,6 @@
   transition: .3s;
 }
 
-.header__complain:hover::before {
+.form__submit:hover::before {
   transform: scaleX(1);
 }

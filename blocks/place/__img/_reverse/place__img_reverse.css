@@ -1,3 +1,10 @@
 .place__img_reverse {
   grid-column: 2;
 }
+
+@media screen and (max-width: 680px) {
+  .place__img_reverse {
+    grid-column: 1;
+    grid-row: 1;
+  }
+}

@@ -1,4 +1,15 @@
 .root__header {
-  margin: 0 auto;
   padding: 48px 68px 88px;
+}
+
+@media screen and (max-width: 680px) {
+  .root__header {
+    padding: 40px 20px 60px
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .root__header {
+    padding: 30px 10px 40px
+  }
 }

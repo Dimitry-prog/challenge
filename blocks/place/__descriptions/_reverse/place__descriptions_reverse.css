@@ -2,3 +2,9 @@
   grid-column: 1;
   grid-row: 1;
 }
+
+@media screen and (max-width: 680px) {
+  .place__descriptions_reverse {
+    grid-row: 2;
+  }
+}

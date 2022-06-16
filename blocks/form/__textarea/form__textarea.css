@@ -1,0 +1,23 @@
+.form__textarea {
+  width: 90%;
+  margin: 0 auto 25px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid transparent;
+  background: none;
+  min-height: 45px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 10px;
+}
+
+.form__textarea::placeholder {
+  opacity: .8;
+}
+
+.form__textarea:focus {
+  border-bottom: 1px solid #000;
+  transition: 1s;
+}

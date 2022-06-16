@@ -5,3 +5,15 @@
 .menu__item:last-of-type {
   margin-right: 0;
 }
+
+@media screen and (max-width: 395px) {
+  .menu__item {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .menu__item {
+    margin-right: 5px;
+  }
+}
