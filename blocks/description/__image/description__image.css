@@ -1,9 +1,9 @@
 .description__image {
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: center center;
-     object-position: center center;
+  object-position: center center;
 }
 
 @media screen and (max-width: 767px) {

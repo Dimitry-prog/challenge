@@ -1,0 +1,8 @@
+.description__mark {}
+
+@media screen and (max-width: 767px) {
+  .description__mark {
+    padding: 0 20px 0;
+    max-width: 263px;
+  }
+}

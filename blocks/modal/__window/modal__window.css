@@ -1,0 +1,19 @@
+.modal__window {
+  position: relative;
+  border-radius: 15px;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}
+
+@media screen and (max-width: 572px) {
+  .modal__window {
+    max-width: 340px;
+  }
+}
+
+@media screen and (max-width: 486px) {
+  .modal__window {
+    max-width: 270px;
+  }
+}

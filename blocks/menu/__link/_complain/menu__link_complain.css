@@ -1,0 +1,5 @@
+@media screen and (max-width: 500px) {
+  .menu__link_complain::before {
+    border-bottom: 2px solid #FED4B4;
+  }
+}

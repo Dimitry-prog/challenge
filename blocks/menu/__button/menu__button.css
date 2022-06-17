@@ -3,9 +3,8 @@
   width: 20px;
   height: 16px;
   z-index: 1;
-
   background-image: url("../../../images/menu__button.png");
-
+  cursor: pointer;
 }
 
 @media screen and (max-width: 500px) {

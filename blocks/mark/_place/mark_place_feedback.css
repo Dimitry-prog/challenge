@@ -1,12 +1,17 @@
-.mark_place_feedback{
+.mark_place_feedback {
   padding: 0;
   max-width: 425px;
   margin-bottom: 124px;
 }
 
-@media screen and (max-width: 662px) {
+@media screen and (max-width: 780px) {
   .mark_place_feedback {
-    margin-bottom: 60px;
+    margin: 90px 0 60px;
   }
 }
 
+@media screen and (max-width: 662px) {
+  .mark_place_feedback {
+    margin: 60px 0;
+  }
+}

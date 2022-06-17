@@ -1,8 +1,8 @@
 .root {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   max-width: 1280px;
-  min-width: 329px;
+  min-width: 303px;
   margin: 0 auto;
   font-family: 'Montserrat', "Arial", sans-serif;
   font-weight: 400;

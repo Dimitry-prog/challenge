@@ -2,14 +2,17 @@
 @import url(../vendor/fonts/fonts.css);
 
 /* Root */
+
 @import url(../blocks/root/root.css);
 @import url(../blocks/root/__header/root__header.css);
 @import url(../blocks/root/__main/root__main.css);
 
 /* Header */
+
 @import url(../blocks/header/header.css);
 
 /* Menu */
+
 @import url(../blocks/menu/menu.css);
 @import url(../blocks/menu/__links/menu__links.css);
 @import url(../blocks/menu/__item/menu__item.css);
@@ -21,21 +24,27 @@
 @import url(../blocks/menu/__drop-down/_active/menu__drop-down_active.css);
 
 /* Main */
+
 @import url(../blocks/main/main.css);
 @import url(../blocks/main/__description/main__description.css);
 @import url(../blocks/main/__feedback/main__feedback.css);
 
 /* Description */
+
 @import url(../blocks/description/description.css);
 @import url(../blocks/description/__image/description__image.css);
+@import url(../blocks/description/__mark/description__mark.css);
 
 /* Mark */
+
 @import url(../blocks/mark/mark.css);
 @import url(../blocks/mark/_place/mark_place_feedback.css);
 @import url(../blocks/mark/__title/mark__title.css);
 @import url(../blocks/mark/__subtitle/mark__subtitle.css);
+@import url(../blocks/description/__mark/description__mark.css);
 
 /* Places */
+
 @import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__descriptions/place__descriptions.css);
@@ -47,6 +56,7 @@
 @import url(../blocks/place/__img/_reverse/place__img_reverse.css);
 
 /* Feedback */
+
 @import url(../blocks/feedback/feedback.css);
 @import url(../blocks/feedback/__list/feedback__list.css);
 @import url(../blocks/feedback/__list-item/feedback__list-item.css);
@@ -54,25 +64,31 @@
 @import url(../blocks/feedback/__item-paragraph/feedback__item-paragraph.css);
 
 /* Footer */
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__cpyright.css);
 
 /* Up */
+
 @import url(../blocks/up/up.css);
 @import url(../blocks/up/__icon/up__icon.css);
 @import url(../blocks/up/__show/up__show.css);
 
 /* Modal */
+
 @import url(../blocks/modal/modal.css);
 @import url(../blocks/modal/__show/modal__show.css);
-@import url(../blocks/modal/__wrapper/modal__window.css);
+@import url(../blocks/modal/__window/modal__window.css);
 
 /* Form */
+
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/__input/form__input.css);
 @import url(../blocks/form/__textarea/form__textarea.css);
 @import url(../blocks/form/__submit/form__submit.css);
 
 /* Animation */
+
 @import url(../blocks/animation/__open/animation__open.css);
 @import url(../blocks/animation/__close/animation__close.css);
+@import url(../test.css);
