@@ -1,14 +1,10 @@
 .description__image {
   width: 100%;
-  object-fit: cover;
-  object-position: center center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
 }
-
-/* @media screen and (max-width: 767px) {
-  .description__image {
-    object-fit: contain;
-  }
-} */
 
 @media screen and (max-width: 767px) {
   .description__image {

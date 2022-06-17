@@ -1,3 +1,5 @@
 .modal__show {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }

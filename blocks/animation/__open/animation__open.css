@@ -1,3 +1,12 @@
+@-webkit-keyframes open {
+  from {
+    left: -150px;
+}
+  to {
+    left: -10px;
+}
+}
+
 @keyframes open {
   from {
     left: -150px;
@@ -8,5 +17,6 @@
 }
 
 .animation__open{
-  animation: open ease-in-out 0.5s;
+  -webkit-animation: open ease-in-out 0.5s;
+          animation: open ease-in-out 0.5s;
 }

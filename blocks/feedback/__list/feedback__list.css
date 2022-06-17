@@ -1,8 +1,10 @@
 .feedback__list {
   padding: 0;
   list-style-type: none;
+  display: -ms-grid;
   display: grid;
   gap: 58px;
+  grid-template-columns: repeat(auto-fit, minmax(230px, -webkit-max-content));
   grid-template-columns: repeat(auto-fit, minmax(230px, max-content));
 }
 
@@ -11,4 +13,3 @@
     gap: 30px;
   }
 }
-

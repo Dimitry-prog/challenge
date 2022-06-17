@@ -6,13 +6,6 @@
   position: relative;
 }
 
-
-/* .form__submit:hover {
-  border-bottom: 1px solid #000;
-  opacity: 1;
-  transition: 1s;
-} */
-
 .form__submit::before {
   content: '';
   position: absolute;
@@ -21,10 +14,16 @@
   top: 0;
   right: 0;
   border-bottom: 1px solid #000;
-  transform: scaleX(0);
+  -webkit-transform: scaleX(0);
+      -ms-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: .3s;
+  -o-transition: .3s;
   transition: .3s;
 }
 
 .form__submit:hover::before {
-  transform: scaleX(1);
+  -webkit-transform: scaleX(1);
+      -ms-transform: scaleX(1);
+          transform: scaleX(1);
 }

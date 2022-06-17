@@ -1,5 +1,6 @@
 .root {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   max-width: 1280px;
   min-width: 329px;
   margin: 0 auto;

@@ -1,3 +1,12 @@
+@-webkit-keyframes close {
+  from {
+    left: -10px;
+}
+  to {
+    left: -150px;
+}
+}
+
 @keyframes close {
   from {
     left: -10px;
@@ -8,6 +17,6 @@
 }
 
 .animation__close{
-  animation: close ease 0.5s;
+  -webkit-animation: close ease 0.5s;
+          animation: close ease 0.5s;
 }
-
