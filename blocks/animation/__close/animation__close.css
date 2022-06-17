@@ -1,6 +1,6 @@
 @-webkit-keyframes close {
   from {
-    left: -10px;
+    left: 35px;
 }
   to {
     left: -150px;
@@ -9,7 +9,7 @@
 
 @keyframes close {
   from {
-    left: -10px;
+    left: 35px;
 }
   to {
     left: -150px;

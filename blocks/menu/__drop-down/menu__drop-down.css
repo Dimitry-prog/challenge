@@ -1,6 +1,6 @@
 .menu__drop-down {
   margin: 0;
-  padding: 37px 12px 12px;
+  padding: 12px 12px 12px;
   list-style-type: none;
 
   background-color:#FED4B4;
@@ -24,7 +24,7 @@
 
   position: absolute;
   left: -150px;
-  top: -10px;
+  top: -3px;
   z-index: 0;
 }
 
