@@ -11,6 +11,7 @@
   font-size: 15px;
   line-height: 20px;
   padding: 10px;
+  resize: vertical;
 }
 
 .form__textarea::placeholder {
