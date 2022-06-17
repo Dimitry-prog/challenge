@@ -1,5 +1,5 @@
 .place {
   background-color: #f2f2f2;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(333px, 1fr));
 }

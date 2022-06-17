@@ -2,9 +2,16 @@
   padding: 48px 68px 88px;
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 1024px) {
   .root__header {
-    padding: 40px 20px 60px
+    padding-left: calc((100vw - 768px)/(1024 - 768)*(68 - 30) + 30px);
+    padding-right: calc((100vw - 768px)/(1024 - 768)*(68 - 30) + 30px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .root__header {
+    padding: 30px 30px 40px
   }
 }
 
@@ -14,9 +21,3 @@
   }
 }
 
-
-/* @media screen and (max-width: 395px) {
-  .root__header {
-    padding: 30px 20px 40px
-  }
-} */
